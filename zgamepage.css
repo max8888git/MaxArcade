@@ -1,0 +1,291 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+body
+{
+			background: radial-gradient(#161132,#1f1e33);
+}
+
+nav
+{
+	background: linear-gradient(to right,#333153, #16171f);
+	width: 100%;
+	height: 60px;
+	position:fixed;
+}
+
+
+nav img
+{
+	width:60px;
+	height:60px;
+	float:left;
+	margin-right:40px;
+}
+
+
+nav p
+{
+	font-family: veranda;
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+}
+
+nav ul 
+{
+	float: left;
+}
+
+
+nav ul li 
+{ 
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+
+nav ul li a 
+{
+	font-family:arial;
+	color: rgb(225,255,255);
+	font-size: 14px;
+	display:block;
+	padding: 22px 30px;
+	text-decoration:none;
+}
+
+
+nav ul li ul
+{
+	display:none;
+	position:absolute;
+	background-color: #028090;
+	padding:;
+	border-radius: 0px 0px 14px 14px;
+}
+
+nav ul li a:hover
+{
+	text-decoration:underline;
+	transition:0.5s;
+}
+
+
+nav ul li:hover ul
+{
+	display:block;
+}
+
+
+nav ul li ul li 
+{
+	padding: 0px 0px;
+	border-radius: 4px;
+	width: 180px;
+	border:;
+}
+
+
+
+nav ul li ul li a 
+{
+	padding:20px ;
+}
+
+
+
+nav ul li ul li a:hover
+{
+	padding: px px;
+	background-color: #80d4ff;
+	width:139px;
+	margin:0px 0px 0px 0px;
+	color:black;
+	border-radius:0px 0px 14px 14px;
+	transition:0.5s;
+}
+
+
+nav form 
+{
+	height:40px;
+	vertical-align:middle;
+	color:lightblue;
+	margin-top:20px;
+	float:right;
+	margin-right:40px;
+}
+
+.gap
+{
+	height:10px;
+/*	background-color:white;*/
+}
+
+main
+{
+	width:100%;
+	height:%;
+	background: radial-gradient(#161132,#1f1e33);
+	color:white;
+	border:;
+}
+
+
+
+.gamenameo
+{
+	width:80%;
+	height:100px;
+	font-family:arial;
+	font-size:60;
+	margin:7% auto 5%;
+	border:;
+
+}
+
+
+.title
+{
+	font-family:arial;
+	font-size:60;
+	float:left;
+	display:inline-block;
+}
+
+.buy
+{
+	width:310px;
+	height:35px;
+	margin:1% 3% 0% 5%;
+	padding:;
+	display:inline-block;
+	float:left;
+	font-size:30;
+	text-align:center;
+	background-color:#6a29da;
+	border-radius:30px;
+	border:;	
+}
+
+
+.buy:hover
+{
+	background-color:#f95c00;
+	transition:0.5s;
+}
+
+
+.buy a
+{
+	text-decoration:none;
+	color:white;
+}
+
+
+.container1
+{
+	width:100%;
+	height:100%;
+	color:;
+	background-color:;
+	border:;
+	display:table;
+}
+
+
+.containera
+{
+	display:inline-block;
+	border:;
+	width:60%;
+	color:yellow;
+	margin-left:9%;
+	float:left;
+}
+
+.containera img
+{
+	width:100%;
+	margin-left:%;
+	border-radius:14px;
+	margin-bottom:5%;
+}
+
+
+.containerb
+{
+	display:inline-block;
+	border:;
+	width:24%;
+	margin-left:3%;
+/*	border:dashed; */
+	display:tabl;
+	border-radius:14px;
+	color:white;
+	background-color:#2f2f44;
+	padding:0px 0px 15px 0px;
+	color:white;
+	float:left;
+}
+
+.gamename
+{
+	font-size:20px;
+	font-family:arial;
+	color:white;
+	margin:10px 0px 0px 10px;
+}
+
+
+.gameinfo
+{
+	display:;
+	position:;
+	background-color:#;
+	width:;
+	padding:10px;
+	border-radius:10px;
+	color:white;
+}
+
+
+
+.gameinfo ul li
+{
+	display:table-cell;
+	background-color:#8077b8;
+	border-radius:20px;
+	padding:3px;
+	color:;
+}
+
+
+.gamedescription
+{
+	font-family:tahoma;
+	margin:3% 0% 0% 10%;
+}
+
+
+.gamedescription ul li
+{
+	display:table-cell;
+	padding:5px;
+	width:127px;
+	background-color:#;
+}
+
+
+.gamedescription  li
+{
+	list-style:none;
+	margin:30px 0px 0px 0px;
+}

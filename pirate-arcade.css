@@ -1,0 +1,771 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+body
+{
+		background: radial-gradient(#1f1e33,#130e29);
+}
+
+nav
+{
+	background: linear-gradient(to right,#333153, #16171f);
+	width: 100%;
+	height: 60px;
+	position:fixed;
+}
+
+
+nav img
+{
+	width:60px;
+	height:60px;
+	float:left;
+	margin-right:40px;
+}
+
+
+nav p
+{
+	font-family: veranda;
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+}
+
+nav ul 
+{
+	float: left;
+}
+
+
+nav ul li 
+{ 
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+
+nav ul li a 
+{
+	font-family:arial;
+	color: rgb(225,255,255);
+	font-size: 14px;
+	display:block;
+	padding: 22px 30px;
+	text-decoration:none;
+}
+
+
+nav ul li ul
+{
+	display:none;
+	position:absolute;
+	background-color: #028090;
+	padding:;
+	border-radius: 0px 0px 14px 14px;
+}
+
+nav ul li a:hover
+{
+	text-decoration:underline;
+	transition:0.5s;
+}
+
+
+nav ul li:hover ul
+{
+	display:block;
+}
+
+
+nav ul li ul li 
+{
+	padding: 0px 0px;
+	border-radius: 4px;
+	width: 180px;
+	border:;
+}
+
+
+
+nav ul li ul li a 
+{
+	padding:20px ;
+}
+
+
+
+nav ul li ul li a:hover
+{
+	padding: px px;
+	background-color: #80d4ff;
+	width:139px;
+	margin:0px 0px 0px 0px;
+	color:black;
+	border-radius:0px 0px 14px 14px;
+	transition:0.5s;
+}
+
+
+nav form 
+{
+	height:40px;
+	vertical-align:middle;
+	color:lightblue;
+	margin-top:20px;
+	float:right;
+	margin-right:40px;
+}
+
+main
+{
+	border:;
+	margin:;
+}
+
+.gap
+{
+	height:60px;
+	border:;
+/*	background-color:white;*/
+}
+
+
+
+.gotw
+{
+	width:100%;
+	height:;
+}
+
+
+.gotw img
+{
+	width:100%;
+	height:;
+}
+
+
+.gotwl
+{
+	width:100%;
+	height:105px;
+	margin:0% 0%;
+	font-size:20px;
+	color:white;
+	background:linear-gradient(to right,#fa4d00,#cb2100,#fa4d00,#ff6e07,#fa8d00,#ffce1b,#2e18dc,  #7f5de7,#3274fe,#2d376c,#030c2b,#000110);
+}
+
+.gotwll
+{
+	width:70%;
+	font-size:40px;
+	margin:auto;
+	border:;
+}
+
+
+.sections
+{
+	width:75%;
+	height:1090px;
+	margin:auto;
+	border:;
+	color:white;
+}
+
+
+.title
+{
+	color:white;
+	font-size:30px;
+	font-family:helvetica;
+	margin:0px 0px 0px 10px;
+	
+}
+
+
+.body
+{
+	height:600px;
+	background-color:;
+	border-radius:10px;
+	border-spacing:14px;
+	border:;
+}
+
+
+.game 
+{
+	width:366px;
+	height:250px;
+/*	border:dashed; */
+	display:table-cell;
+	border-radius:14px;
+	color:white;
+	background-color:#2f2f44;
+	padding:0px 0px 15px 0px;
+}
+
+
+
+/*
+.game:hover
+{
+	width:;
+	height:;
+	transition:0.5s;
+	position:relative;
+}
+*/
+
+
+.game img
+{
+	height:220px;
+	width:366px;
+	border-radius:14px;
+}
+
+
+
+.gamename
+{
+	font-size:20px;
+	font-family:arial;
+	color:white;
+	margin:0px 0px 0px 10px;
+}
+
+
+.gamedescription
+{
+	font-family:tahoma;
+}
+
+
+.gamedescription ul li
+{
+	display:table-cell;
+	padding:px;
+	width:117px;
+	background-color:#;
+}
+
+
+
+
+/*-------WAG PAKIALAMAN MORE-INFO AT GAME-INFO-------*/
+/*
+.moreinfo
+{
+	margin-left:10px;
+	text-decoration:underline;
+}
+
+													BASURA
+
+.moreinfo:hover
+{
+	margin-left:10px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+*/
+
+.gameinfo
+{
+	display:none;
+	position:absolute;
+	background-color:#9887b6;
+	width:400px;
+	padding:10px;
+	border-radius:10px;
+	color:black;
+}
+
+
+
+.gameinfo ul li
+{
+	display:table-cell;
+	background-color:#8077b8;
+	border-radius:20px;
+	padding:3px;
+	color:;
+}
+
+
+
+
+.visitpage
+{
+	text-decoration:none;
+	float:;
+	width:px;
+	padding:0px 50px 0px 0px;
+	border-spacing:0px 0px 0px 10px;
+	border:;
+	display:table-cell;
+	color:inherit;
+}
+
+
+.visitpage a
+{
+	text-decoration:;
+	color:white;
+}
+
+.visitpage:hover a
+{
+	cursor:pointer;
+	text-decoration:;
+	color:cyan;
+}
+
+.moreinfo:hover .gameinfo
+{
+	display:block;
+}
+
+
+/*--------------------------------Top Selling-----------------------*/
+
+.gap1
+{
+	height:200px;
+}
+
+
+.sections1
+{
+	width:75%;
+	height:830px;
+	margin:auto;
+	border:;
+	color:white;
+}
+
+.title1
+{
+	color:white;
+	font-size:30px;
+	font-family:helvetica;
+	margin:0px 0px 0px 50px;
+	
+}
+
+.body1
+{
+	height:600px;
+	background-color:;
+	border-radius:10px;
+	padding:;
+	border-spacing:0px 50px 0px 0px;
+	border:;
+}
+
+.game1
+{
+	width:90%;
+	height:120px;
+	border:; 
+	display:tabl-row;
+	border-radius:14px;
+	color:white;
+	background-color:#2f2f44;
+	padding:0px 0px 0px 0px;
+	border-spacing:0px 0px 0px 0px;
+	margin:0px 0px 10px 57px;
+}
+
+
+.game1 img
+{
+	height:120px;
+	width:205px;
+	border-radius:14px;
+	float:left;
+}
+
+
+
+.gamename1
+{
+	font-size:20px;
+	font-family:arial;
+	color:white;
+	text-decoration:;
+	width:700px;
+	height:30px;
+	float:left;
+	margin:-25px 0px 0px 10px;
+	border:;
+	padding:0px 50px 0px 0px;
+	
+}
+
+
+.gamedescription1
+{
+	font-family:tahoma;
+	border:;
+	width:1000px;
+	position:;
+	margin:auto;
+}
+
+
+.gamedescription1 ul 
+{
+	display:table-cell;
+	border-spacing:10px;
+	padding-right:50px;
+	padding-left:10px;
+	border:;
+	width:117px;
+}
+
+
+.gamedescription1 ul li
+{
+	display:;
+	padding:px;
+	width:px;
+	background-color:#;
+	border:;
+	list-style:none;
+}
+
+
+.visitpage1
+{
+	text-decoration:none;
+/*	text-shadow:0 0 8px red, 0 0 8px yellow;*/
+	background-color:;
+	float:;
+	width:;
+	padding:0px 100px 0px 0px;
+	border-spacing:0px 0px 0px 10px;
+	border:;
+	display:table-cell;
+	
+}
+
+
+
+.visitpage1 a
+{
+	text-decoration:;
+	color:white;
+	cursor:pointer;
+}
+
+.visitpage1 a:hover
+{
+	text-decoration:;
+	color:cyan;
+	cursor:pointer;
+}
+
+
+.moreinfo1
+{
+	margin-left:0px;
+	text-decoration:underline;
+	float:;
+	margin:px 80px 200px 0px;
+	border:;
+	display:table-cell;
+	
+}
+
+
+
+.moreinfo1 a:hover
+{
+	margin-left:0px;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+
+.moreinfo1:hover .gameinfo
+{
+	display:block;
+}
+
+
+/*-------------------New Releases------------------*/
+
+.sections2
+{
+	width:82%;
+	height:1020px;
+	margin:auto;
+	border:;
+	color:white;
+}
+
+
+.game2 
+{
+	width:300px;
+	height:250px;
+/*	border:dashed; */
+	display:table-cell;
+	border-radius:14px;
+	color:white;
+	background-color:#2f2f44;
+	padding:0px 0px 15px 0px;
+}
+
+.game2a
+{
+	border:;
+	height:440px;
+	width:956px;
+	margin:auto;
+	padding:0px 0px 15px 0px;
+}
+
+
+/*
+.game:hover
+{
+	width:;
+	height:;
+	transition:0.5s;
+	position:relative;
+}
+*/
+
+
+.game2 img
+{
+	height:165px;
+	width:298px;
+	border-radius:14px;
+}.game2a img
+{
+	height:175px;
+	width:300px;
+	border-radius:14px;
+}
+
+
+
+.gamename2
+{
+	font-size:20px;
+	font-family:arial;
+	color:white;
+	margin:0px 0px 0px 10px;
+}
+
+
+.gamedescription
+{
+	font-family:tahoma;
+}
+
+
+.gamedescription ul li
+{
+	display:table-cell;
+	padding:px;
+	width:117px;
+	background-color:#;
+}
+
+
+/*--------------Top Rated------------*/
+
+
+.game3a
+{
+	border:;
+	height:490px;
+	width:775px;
+	margin:auto;
+	padding:0px 0px 15px 0px;
+}
+
+
+p
+{
+	padding:30px;
+}
+
+
+/*--------------------------Game Updates------------------*/
+
+
+.sections4
+{
+	width:75%;
+	height:710px;
+	margin:auto;
+	border:;
+	color:white;
+}
+
+.game4
+{
+	width:90%;
+	height:150px;
+	border:; 
+	display:tabl-row;
+	border-radius:14px;
+	color:white;
+	background-color:#2f2f44;
+	padding:0px 0px 0px 0px;
+	border-spacing:0px 0px 0px 0px;
+	margin:0px 0px 10px 57px;
+}
+
+
+.game4 img
+{
+	height:150px;
+	width:255px;
+	border-radius:14px;
+	float:left;
+}
+
+.gamename4
+{
+	font-size:23px;
+	font-family:arial;
+	color:white;
+	text-decoration:underline;
+	width:700px;
+	height:30px;
+	float:left;
+	margin:-25px 0px 0px 10px;
+	border:;
+	padding:0px 50px 0px 0px;
+	
+}
+
+
+.gamedescription4
+{
+	font-family:tahoma;
+	border:;
+	width:770px;
+	position:;
+	margin:0px 0px 0px 264px;
+	padding-left:px;
+}
+
+
+.footer
+{
+	width:100%;
+	height:350px;
+	background-color:#030619;
+	display:table;
+	margin-top:200px;
+}
+
+.footera
+{
+	background:;
+	height:50%;
+	width:100%;
+	border:solid 1px;
+	color:#030619;
+	display:;
+}
+
+
+.footera a
+{
+	text-decoration:none;
+}
+
+.logint
+{
+	font-size:30;
+	width:38%;
+	margin:2% auto;
+	font-family:arial;
+	color:lightgray;
+	border:;
+}
+
+
+.loginb
+{
+	font-size:30;
+	width:10%;
+	margin:2% auto;
+	font-family:arial;
+	color:lightgray;
+	border-radius:20px;
+	background-color:#620fe3;
+}
+
+.loginb:hover
+{
+	background-color:#f95c00;
+}
+
+.loginx
+{
+	margin:auto;
+	text-align:center;
+}
+
+
+.foottext
+{
+	margin-top:2%;
+	width:%;
+	text-align:center;
+	color:lightgray;
+	font-size:20;
+}
+
+
+.lastlist
+{
+	display:table;
+	width:;
+	text-align:center;
+	margin: auto;
+	border:;
+	margin-top:2%;
+}
+
+.lastlist ul li
+{
+	display:table-cell;
+	width:200px;
+	padding:%;
+	border-spacing:10px;
+	border:;
+	color:lightgray;
+	
+}
+
+
+.lastlist ul li a
+{
+	text-decoration:none;
+	color:lightgray;
+}
+
+
+.lastlist ul li a:hover
+{
+	color:#f95c00;
+}

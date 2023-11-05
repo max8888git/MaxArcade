@@ -1,0 +1,24 @@
+body
+{
+	background-color:black;
+}
+
+
+
+.trending
+{
+	height:560px;
+	width:100%px;
+	background-color:#1f1e33;
+}
+
+
+
+nav form 
+{
+	height:40px;
+	vertical-align:middle;
+	color:lightblue;
+	margin-top:20px;
+	float:right;
+}
