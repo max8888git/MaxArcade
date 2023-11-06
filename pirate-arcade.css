@@ -125,7 +125,7 @@ nav form
 
 main
 {
-	width:90%;
+	width:100%;
 	border:;
 	margin:;
 }
@@ -175,7 +175,7 @@ main
 .sections
 {
 	width:75%;
-	height:1090px;
+	height:;
 	margin:auto;
 	border:;
 	color:white;
@@ -194,7 +194,7 @@ main
 
 .body
 {
-	height:600px;
+	height:;
 	background-color:;
 	border-radius:10px;
 	border-spacing:14px;
@@ -204,9 +204,9 @@ main
 
 .game 
 {
-	width:366px;
-	height:250px;
-/*	border:dashed; */
+	max-width:366px;
+	height:px;
+	border:; 
 	display:table-cell;
 	border-radius:14px;
 	color:white;
@@ -248,6 +248,8 @@ main
 .gamedescription
 {
 	font-family:tahoma;
+	width:336px;
+	padding:10px;
 }
 
 
@@ -255,7 +257,7 @@ main
 {
 	display:table-cell;
 	padding:px;
-	width:117px;
+	width:100%;
 	background-color:#;
 }
 
@@ -365,7 +367,7 @@ main
 
 .body1
 {
-	height:600px;
+	height:px;
 	background-color:;
 	border-radius:10px;
 	padding:;
@@ -490,6 +492,7 @@ main
 
 
 
+
 .moreinfo1 a:hover
 {
 	margin-left:0px;
@@ -501,6 +504,19 @@ main
 .moreinfo1:hover .gameinfo
 {
 	display:block;
+}
+
+
+.gameinfo ul
+{
+	max-width:100%;
+	min-width:0%;
+}
+
+.gameinfo ul li
+{
+	max-width:100%;
+	min-width:0%;
 }
 
 
@@ -518,8 +534,8 @@ main
 
 .game2 
 {
-	width:300px;
-	height:250px;
+	width:px;
+	height:px;
 /*	border:dashed; */
 	display:table-cell;
 	border-radius:14px;
@@ -551,8 +567,8 @@ main
 
 .game2 img
 {
-	height:165px;
-	width:298px;
+	height:220px;
+	width:366px;
 	border-radius:14px;
 }.game2a img
 {
